@@ -9,6 +9,7 @@ if (empty($_SESSION["user"])) {
 else{
     $ss = ShowNewletters();
     $m = $_SESSION["user"]["newsletter_tiers"];
+    $sh = ShowNewletter($m);
 }
 
 ?>
